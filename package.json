@@ -1,0 +1,32 @@
+{
+  "name": "filter-unique",
+  "version": "1.0.0",
+  "description": "Create an array of unique elements from array using a predicate which determines which properties make an item unique",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/resurge/filter-unique.git"
+  },
+  "keywords": [
+    "filter",
+    "set",
+    "predicate",
+    "unique"
+  ],
+  "author": "Jeroen Pelgrims (https://jeroenpelgrims.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resurge/filter-unique/issues"
+  },
+  "homepage": "https://github.com/resurge/filter-unique#readme",
+  "dependencies": {
+    "deep-equal": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1"
+  }
+}
