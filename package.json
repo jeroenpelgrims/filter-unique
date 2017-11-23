@@ -1,6 +1,6 @@
 {
   "name": "filter-unique",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create an array of unique elements from array using a predicate which determines which properties make an item unique",
   "main": "index.js",
   "scripts": {
