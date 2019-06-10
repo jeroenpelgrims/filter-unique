@@ -1,4 +1,4 @@
-const filterUnique = require('.');
+import filterUnique from '.';
 
 describe('Edge cases', () => {
 	test('No parameters returns empty array', () => {
@@ -6,7 +6,7 @@ describe('Edge cases', () => {
 	});
 
 	test('Null as list returns empty array', () => {
-		expect(filterUnique(null)).toEqual([]);
+		expect(filterUnique(null as any)).toEqual([]);
 	});
 });
 

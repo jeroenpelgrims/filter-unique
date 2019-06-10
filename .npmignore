@@ -1,0 +1,4 @@
+dist/index.test.*
+coverage
+jest.config.js
+src
